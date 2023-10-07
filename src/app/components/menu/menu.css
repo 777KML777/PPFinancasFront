@@ -1,0 +1,8 @@
+.menu_container {
+    background-color: black;
+    display: flex;
+}
+
+.menu_container p {
+    color: #D19D51;
+}

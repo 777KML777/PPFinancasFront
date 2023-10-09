@@ -2,3 +2,24 @@ Ver todo o conteúdo de css e html da FIAP, incluindo até mesmo as lives.
 Ver CSS FLEX e FLEX GRID na Coder Treinamentos 
 Seguir com os cursos de react hooks. 
 
+Aplicativo de: 
+    Senhas 
+    Etiqueta 
+    Windows API 
+    
+    
+Responsividade 
+    Como não usar px. 
+    Ver como passar o children FHIR 
+    Pegar mais exemplos da vídeo aula que o professor deu o exemplo 
+    Como pegar os valores de um formulário. 
+
+
+    E se você tivesse tempo para fazer as coisas?
+
+    useState quando modificado ele renderiza o componente inteiro? 
+
+    É interessante implementar o dropdown mas não ficaria muito usual
+
+colocar 'use client' resolve o problema 
+    If you need interactivity, consider converting part of this to a client component. 

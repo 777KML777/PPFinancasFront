@@ -1,30 +1,83 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/components/card_expense/cardexpense.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+/* .card_expense-dropdown {
+    background-color: #161616;
+    border: 2px solid #D19D51;
+    border-radius: 10px;
+}
+
+.cardexpense {
+    align-items: center;
+    display: flex;
+    font-size: 0.8rem;
+}
+
+.cardexpense_icon {
+    height: 16px;
+}
+
+.cardexpense_container {
+    background-color: #161616;
+    border: 2px solid #D19D51;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.cardexpense_header {
+    text-align: center;
+}
+
+.cardexpense_container p {
+    color: #D19D51;
+}
+
+.cardexpense_footer {
+    align-self: flex-end;
+}
+
+.dropdown-content.open {
+    background-color: red;
+    transition: max-height 0.3s ease-in-out;
+} */
+
+/* Chat gpt  */
+.dropdown {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dropdown button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 3s ease-in-out;
+  }
+  
+  .dropdown-content.open {
+    /* max-height: 500px; */ /* Defina a altura máxima desejada para o dropdown */
+    max-height: 500px; 
+  }
+  
+  
 /*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/pages/ctests/ctests.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************/
-body {
-    background-color: black;
-    height: 100%;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 .ctests_container {
-    background-color: #161616;
-    display: flex;
     align-items: center;
+    background-color: #696969;
+    display: flex;
+    height: 100vh;
     justify-content: center;
     width: 100vw;
-    height: 100vh;
-}
-/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/components/menu/menu.css ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************/
-.menu_container {
-    background-color: black;
-    display: flex;
-}
-
-.menu_container p {
-    color: #D19D51;
 }

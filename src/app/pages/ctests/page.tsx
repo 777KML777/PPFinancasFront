@@ -1,16 +1,24 @@
 import './ctests.css'
 
-import '../../components/menu/index'
-import Menu from '../../components/menu/index'
+import { IExpense, seedExpense } from '../../../seed/expense/expenseDto'
+import CardExpense from '../../components/card_expense'
+import Dropdown from '../../components/card_expense';
 
 export default function Ctests() {
+
+    const expense: IExpense = seedExpense();
+
     return (
         <>
-            <body>
-                <div className="ctests_container">
-                    <Menu/>
-                </div>
-            </body>
+            <div
+                className="ctests_container"
+            >
+                {/* <CardExpense
+                    expense={expense}
+                /> */}
+
+                <Dropdown/>
+            </div>
         </>
     )
 }

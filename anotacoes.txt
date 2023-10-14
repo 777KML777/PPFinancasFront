@@ -1,3 +1,7 @@
+Pegar a classe cardexpense_content 
+    Para terminar de estilizar o cara
+
+
 Ver todo o conteúdo de css e html da FIAP, incluindo até mesmo as lives. 
 Ver CSS FLEX e FLEX GRID na Coder Treinamentos 
 Seguir com os cursos de react hooks. 

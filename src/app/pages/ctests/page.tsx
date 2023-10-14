@@ -17,7 +17,9 @@ export default function Ctests() {
                     expense={expense}
                 /> */}
 
-                <Dropdown/>
+                <Dropdown
+                    expense={expense}
+                />
             </div>
         </>
     )

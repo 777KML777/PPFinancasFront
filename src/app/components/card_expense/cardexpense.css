@@ -1,69 +1,44 @@
-/* .card_expense-dropdown {
-    background-color: #161616;
-    border: 2px solid #D19D51;
-    border-radius: 10px;
-}
-
-.cardexpense {
+.dropdown {
     align-items: center;
-    display: flex;
-    font-size: 0.8rem;
-}
-
-.cardexpense_icon {
-    height: 16px;
-}
-
-.cardexpense_container {
     background-color: #161616;
-    border: 2px solid #D19D51;
     border-radius: 10px;
+    border: 2px solid #D19D51;
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
+    width: 50vw;
 }
 
-.cardexpense_header {
-    text-align: center;
-}
-
-.cardexpense_container p {
+.dropdown button {
+    background-color: #161616;
+    border: none;
     color: #D19D51;
+    font-size: 1rem;
+    text-align: left;
+    width: 95%;
+}
+
+.dropdown-content {
+    margin-top: 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 3s ease-in-out;
+}
+
+.dropdown-content.open {
+    max-height: 500px;
+}
+
+.dropdown_separator {
+    border: solid 1px #D19D51;
+    margin: 10px 0px;
+    width: 20vh;
+}
+
+.progress_bar {
+    border: solid 5px #2E1414;
+    width: 20vh;
 }
 
 .cardexpense_footer {
     align-self: flex-end;
 }
-
-.dropdown-content.open {
-    background-color: red;
-    transition: max-height 0.3s ease-in-out;
-} */
-
-/* Chat gpt  */
-.dropdown {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .dropdown button {
-    background-color: #3498db;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  
-  .dropdown-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 3s ease-in-out;
-  }
-  
-  .dropdown-content.open {
-    /* max-height: 500px; */ /* Defina a altura máxima desejada para o dropdown */
-    max-height: 500px; 
-  }
-  
-  

@@ -27,3 +27,5 @@ Responsividade
 
 colocar 'use client' resolve o problema 
     If you need interactivity, consider converting part of this to a client component. 
+
+https://dicasvisuais.com.br/guia-teclas-de-atalho-do-figma/

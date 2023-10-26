@@ -20,14 +20,25 @@ const Dropdown = (props: IExpenseProps) => {
 
   return (
     <div className="dropdown">
-      <button onClick={toggleDropdown}>Nome Mercado Teste</button>
+      <button onClick={toggleDropdown}>Nome {props.expense.name}</button>
       <div className={`dropdown-content ${isOpen ? 'open' : ''}`}>
         <hr className='dropdown_separator' />
-        <hr className='progress_bar' />
         <div className="cardexpense_content">
-          <p>Inativo: {mapBoolean(props.expense.inactive)}</p>
-          <p>Separado: {mapBoolean(props.expense.separeted)}</p>
-          <p>Tipo De Pagamento: {props.expense.tipoPagamento}</p>
+          <div className='cardexpense_content-description'>
+            <p>Valor: {props.expense.amount}</p>
+            <p>Parcelas Restantes: {props.expense.name}</p>
+            <p>Parcelas Pagas: {props.expense.name}</p>
+            <p>Total Parcelas: {props.expense.name}</p>
+            <p>Inativo: {mapBoolean(props.expense.inactive)}</p>
+            <p>Separado: {mapBoolean(props.expense.separeted)}</p>
+            <p>Pagamento: {props.expense.paymentType}</p>
+          </div>
+          <div className='cardexpense_progress'>
+          <hr className='progress_bar' />
+          <p>n/n</p>
+
+          </div>
+
         </div>
         <div
           className="cardexpense_footer"

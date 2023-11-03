@@ -29,3 +29,31 @@ colocar 'use client' resolve o problema
     If you need interactivity, consider converting part of this to a client component. 
 
 https://dicasvisuais.com.br/guia-teclas-de-atalho-do-figma/
+https://www.w3schools.in/css3/tutorials/
+https://www.homehost.com.br/blog/tutoriais/tabela-de-cores-html/
+https://www.youtube.com/watch?v=pprhZbiZ4FE
+https://www.youtube.com/watch?v=GOuwOI-WSkE
+https://www.youtube.com/watch?v=FdrEjwymzdY
+
+
+https://www.amazon.com.br/HTML-Entendendo-Executando-Mark-Pilgrim/dp/8576085909?&linkCode=sl1&tag=brunorodris0c-20&linkId=a968e148927e2e6e956340bb3a8cda6d&language=pt_BR&ref_=as_li_ss_tl
+
+
+https://horadecodar.com.br/como-executar-uma-funcao-ao-carregar-a-pagina-com-javascript/
+https://horadecodar.com.br/como-pegar-valor-de-input-com-javascript/
+https://www.youtube.com/watch?v=FH6jtaCTk1g
+
+https://www.youtube.com/watch?v=AEM3ssmyFMo
+https://www.youtube.com/playlist?list=PLaLQ4gJXUd6CoVz-vmxRH75dJPB-ckyfu
+https://www.youtube.com/watch?v=FJui1kh9Drc
+https://www.hostinger.com.br/
+https://inteliogia.com/modofrontend/
+https://www.amazon.com.br/Html-CSS-guia-pr%C3%A1tico-visual/dp/8576088037?&linkCode=sl1&tag=brunorodris0c-20&linkId=82e26a4c18b05ff16045d7c686ac166f&language=pt_BR&ref_=as_li_ss_tl
+https://www.amazon.com.br/Use-cabe%C3%A7a-HTML-Elisabeth-Freeman/dp/8576088622?hvadid=379792215563&hvpos=&hvnetw=g&hvrand=5473586633465195682&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001534&hvtargid=pla-426809978532&psc=1&linkCode=sl1&tag=brunorodris0c-20&linkId=8b48c4fd5cbf42478e543e146abc38bc&language=pt_BR&ref_=nav_custrec_signin
+https://www.amazon.com.br/JavaScript-Guia-Definitivo-David-Flanagan/dp/856583719X?keywords=javascript&qid=1682217460&s=books&sprefix=javascr,stripbooks,212&sr=1-1&ufe=app_do:amzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d&linkCode=sl1&tag=brunorodris0c-20&linkId=4313d51aa291720cfc70f12a3098ba66&language=pt_BR&ref_=as_li_ss_tl
+https://www.youtube.com/watch?v=gLcDV_R4XAo&list=PLaLQ4gJXUd6CoVz-vmxRH75dJPB-ckyfu&index=10
+https://www.youtube.com/watch?v=vylVbb2PY0M
+https://www.youtube.com/watch?v=29vJqTa53gs
+https://www.youtube.com/watch?v=AEM3ssmyFMo
+https://www.youtube.com/watch?v=KtH1CKJcSXQ
+

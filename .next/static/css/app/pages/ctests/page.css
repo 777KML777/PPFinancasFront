@@ -1,81 +1,3 @@
-/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/components/card_expense/cardexpense.css ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************************/
-.dropdown {
-    align-items: center;
-    background-color: #161616;
-    border-radius: 10px;
-    border: 2px solid #D19D51;
-    display: flex;
-    flex-direction: column;
-}
-
-.dropdown button {
-    background-color: #161616;
-    border: none;
-    color: #D19D51;
-    font-size: 1rem;
-    text-align: left;
-    width: 95%;
-}
-
-.dropdown button:hover {
-    color: white;
-}
-
-.dropdown-content {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 3s ease-in-out;
-}
-
-.dropdown-content.open {
-    max-height: 500px;
-}
-
-.dropdown_separator {
-    border: solid 1px #D19D51;
-    margin: 10px 0px;
-}
-
-
-.cardexpense_content {
-    display: flex;
-    margin: 5px 10px;
-}
-
-.cardexpense_content-description {
-    color: #D19D51;
-    display: flex;
-    flex-direction: column;
-}
-
-.cardexpense_progress {
-    align-items: center;
-    color: white;
-    display: flex;
-    gap: 5px;
-    height: 20px;
-}
-
-.progress_bar {
-    background-color: #490e0e;;
-    border: solid 1px #D19D51;
-    height: 10px;
-    width: 20vh;
-}
-.cardexpense_footer {
-    align-self: flex-end;
-}
-
-.cardexpense_footer button {
-    margin-right: 10px;
-    width: -moz-fit-content;
-    width: fit-content;
-}
 /*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/pages/ctests/ctests.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************/
@@ -87,3 +9,26 @@
     justify-content: center;
     width: 100vw;
 }
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/components/FramerStudio/teste.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.rotating-button {
+    padding: 10px 20px;
+    background-color: #0074d9;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: rotate 2s linear infinite;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
